@@ -13,6 +13,10 @@ const router = createRouter({
       path: '/editor',
       component: () => import('./pages/Editor.vue')
     },
+    {
+      path: '/lists',
+      component: () => import('./pages/Lists.vue')
+    },
   ]
 })
 

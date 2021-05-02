@@ -15,7 +15,7 @@
 <script>
 import { nextTick, onBeforeUpdate, reactive, watch } from 'vue'
 export default {
-  name: 'Editor',
+  name: 'PageEditor',
   setup(props, { emit }) {
     let listData = reactive(props.modelValue?.length ?[...props.modelValue] : [''])
     watch(listData, (newList) => {
